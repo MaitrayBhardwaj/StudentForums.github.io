@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DisHub - Your Discussion Hub</title>
+	<link rel="stylesheet" href="css/thread.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav id="header">
+		<div class="left">
+			<a href="index.html"><img src="icons/forums.png"> <span class="main">StuFor</span></a>
+		</div>
+
+		<div class="searchBox">
+			<form action="/search" method="GET">
+				<input type="text" placeholder="Search Topics...">
+				<button type="submit">Search</button>
+			</form>
+		</div>
+
+		<div class="right">
+			<a href="#">Home</a>
+			<a href="#">Recent</a>
+			<a href="#">Popular</a>
+			<a href="#">Topics</a>
+			<a href="#">Help</a>
+			<a href="#"><img src="icons/user.png"></a>
+		</div>
+	</nav>
+
+	<div class="container">
+		<h1>Thread Title</h1>
+
+		<div class="ogPost">
+			<span><a href="#">User123</a> said:</span>
+			<div class="postContent">
+				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+			</div>
+		</div>
+
+		<div class="replies">
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+			<div class="post">
+				<span><a href="#">User123</a> said:</span>
+				<div class="postContent">
+					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis nobis inventore quod aliquid. Sit minima distinctio sunt facere, aut harum atque quisquam ullam consequuntur vel. Hic repellendus assumenda ratione reprehenderit ducimus eos iste quisquam, sit vel in blanditiis recusandae et?
+				</div>
+			</div>
+		</div>
+
+		<form action="/" method="POST" id="newPost">
+			<textarea name="postContent" id="newPostCont" cols="60" rows="10"></textarea>
+			<div class="postBtns">
+				<button id="submitPost">Submit</button>
+				<button type="button" id="cancelPost">Cancel</button>
+			</div>
+		</form>
+		<a href="#" class="addPost">Add a Post</a>
+	</div>
+	
+	<script src="js/thread.js"></script>
+</body>
+</html>
