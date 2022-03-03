@@ -93,50 +93,24 @@ div.right{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	background-image: url('../icons/books.png');
+	background-position: center;
+	background-size: auto;
+	background-repeat: no-repeat;
 }
 
-.browseCat{
-	display: flex;
-	flex-direction: column;
-}
-
-.browseCat h1{
-	text-align: center;
+.container > h1{
 	font-family: 'Roboto', sans-serif;
+	margin-bottom: 1em;
+	font-size: 3em;
+	font-weight: 500;
 }
 
-.catList{
-	padding: 2em;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.category{
-	display: flex;
-	flex-direction: column;
-	padding: 2em;
-	align-items: center;
-	border: 0.01em solid #CCC;
-	margin: 10px;
-	width: 100px;
-	height: 110px;
-	justify-content: center;
-	transition: background-color 0.2s;
+.container p{
 	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.category:hover{
-	background-color: #EEE
-}
-
-.category div{
-	text-align: center;
-}
-
-.category img{
-	margin-bottom: 20px;
-	width: 64px;
-	height: 64px;
+	font-size: 1.2em;
+	color: #999;
+	width: 75%;
 }
 
 .threads{
@@ -174,7 +148,7 @@ div.right{
 	display: flex;
 	padding: 1em;
 	align-items: center;
-	background-color: #EEE;
+	background-color: rgba(238, 238, 238, 0.5);
 }
 
 .threadLink{
@@ -195,7 +169,7 @@ div.right{
 }
 
 .recentThreads li:nth-of-type(2n), .popThreads li:nth-of-type(2n){
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 .recentThreads li:first-child, .popThreads li:first-child{

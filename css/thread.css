@@ -13,11 +13,12 @@ a{
 	background-color: white;
 	border-bottom: 0.01em solid #CCC;
 	display: flex;
+	width: 100%;
 	justify-content: space-evenly;
 }
 
 .searchBox{
-	margin: 0 18.5%;
+	justify-self: center;
 	align-self: center;
 }
 
@@ -50,6 +51,7 @@ div.left a img{
 }
 
 div.left{
+	justify-self: flex-start;
 	display: flex;
 	align-items: center;
 }
@@ -81,6 +83,7 @@ div.right a img{
 
 div.right{
 	display: flex;
+	justify-self: flex-end;
 	justify-content: space-around;
 	align-items: center;
 }
