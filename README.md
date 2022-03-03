@@ -1,4 +1,4 @@
-# StudentForums.github.io
+# Student Forums
 SE Project based on forums for students
 
 Hosted on:
