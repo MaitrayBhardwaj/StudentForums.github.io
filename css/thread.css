@@ -13,7 +13,6 @@ a{
 	background-color: white;
 	border-bottom: 0.01em solid #CCC;
 	display: flex;
-	width: 100%;
 	justify-content: space-evenly;
 }
 
@@ -110,7 +109,10 @@ div.right{
 
 .addPost{
 	padding: 0.5em;
-	margin-top: 3em;
+	margin-top: 1em;
+	font-size: 1em;
+	background-color: white;
+	font-family: 'Roboto Condensed', sans-serif;
 	border: 0.01em solid #CCC;
 }
 

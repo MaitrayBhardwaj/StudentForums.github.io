@@ -1,4 +1,4 @@
-let addPost = document.querySelector('a.addPost')
+let addPost = document.querySelector('.addPost')
 
 addPost.addEventListener('click', () => {
 	document.querySelector('#newPost').style.display = 'block';
