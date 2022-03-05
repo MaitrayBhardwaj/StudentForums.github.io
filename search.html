@@ -3,9 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Category Name</title>
+	<title>Search - Forums</title>
 	<link rel="icon" href="icons/forums.png" type="image/png">
-	<link rel="stylesheet" href="css/category.css">
+	<link rel="stylesheet" href="css/search.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 		</div>
 
 		<div class="searchBox">
-			<form action="search.html" method="GET">
+			<form action="/search" method="GET">
 				<input type="text" placeholder="Search Topics...">
 				<button type="submit">Search</button>
 			</form>
@@ -35,13 +35,12 @@
 	</nav>
 
 	<div class="container">
-		<h1>Category Name</h1>
-		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores esse eius et quod a, eos fugiat delectus dolor eaque, labore sapiente hic exercitationem officia dolores totam aspernatur quidem, excepturi earum!</p>
+		<h2>You searched for "term"</h2>
 
 		<div class="threads">
-			<div class="recent">
-				<h1>Recent Threads</h1>
-				<ul class="recentThreads">
+			<div class="searchResults">
+				<h1>Search Results</h1>
+				<ul class="resThreads">
 					<li>
 						<a href="thread.html" class="threadLink">Example Thread 1</a>
 						<div class="threadInfo">

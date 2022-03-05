@@ -19,6 +19,7 @@ a{
 .searchBox{
 	justify-self: center;
 	align-self: center;
+	margin: 0 3%;
 }
 
 .searchBox form{
@@ -93,17 +94,16 @@ div.right{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	background-image: url('../icons/books.png');
-	background-position: center;
-	background-size: auto;
-	background-repeat: no-repeat;
 }
 
-.container > h1{
+.container > h2{
+	align-self: flex-start;
 	font-family: 'Roboto', sans-serif;
 	margin-bottom: 1em;
-	font-size: 3em;
-	font-weight: 500;
+	font-size: 2.5em;
+	font-weight: 800;
+	border-bottom: 0.01em solid #CCC;
+	width: 100%;
 }
 
 .container p{
@@ -121,7 +121,7 @@ div.right{
 	font-family: 'Roboto Condensed', sans-serif;
 }
 
-.recent, .popular{
+.searchResults, .popular{
 	width: 100%;
 	padding: 0.5em;
 	flex-grow: 1;
@@ -132,20 +132,20 @@ div.right{
 	border-bottom: 0.01em solid #CCC;
 }
 
-.recentThreads, .popThreads{
+.resThreads, .popThreads{
 	list-style-type: none;
 }
 
-.recent h1, .popular h1{
+.searchResults h1, .popular h1{
 	font-size: 1.5em;
 	padding: 2em 0.5em 0.25em 0;
 }
 
-.recentThreads li a:hover, .popThreads li a:hover{
+.resThreads li a:hover, .popThreads li a:hover{
 	text-decoration: underline;
 }
 
-.recentThreads li, .popThreads li{
+.resThreads li, .popThreads li{
 	display: flex;
 	padding: 1em;
 	align-items: center;
@@ -169,11 +169,11 @@ div.right{
 	font-family: 'Roboto', sans-serif;
 }
 
-.recentThreads li:nth-of-type(2n), .popThreads li:nth-of-type(2n){
+.resThreads li:nth-of-type(2n), .popThreads li:nth-of-type(2n){
 	background-color: rgba(255, 255, 255, 0.5);
 }
 
-.recentThreads li:first-child, .popThreads li:first-child{
+.resThreads li:first-child, .popThreads li:first-child{
 	margin-top: 0.5em;
 }
 
