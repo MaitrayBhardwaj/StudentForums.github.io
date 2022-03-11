@@ -5,20 +5,12 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>DisHub - Your Discussion Hub</title>
 	<link rel="icon" href="icons/forums.png" type="image/png">
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="css/userProfile.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
-
-<style>
-	h1{
-		font-family: 'Roboto', sans-serif;
-		text-align: center;
-	}
-</style>
-
 <body>
 	<nav id="header">
 		<div class="left">
@@ -43,8 +35,26 @@
 	</nav>
 
 	<div class="container">
-		<h1>Error 404. Not found.</h1>
-		<img src="icons/error404.png" alt="">
+		<div class="leftPane">
+			<img src="./icons/Student 01.jpg" alt="" class="profileImg">
+			<div class="username">User123</div>
+			<div class="joinedOn">Joined: 01 March 2022</div>
+			<div class="postCount">Post Count: 1254</div>
+			<div class="isOnline"><div class="dot">•</div> <div class="status">Online</div></div>
+
+			<a href="search.html" class="recentPost">Recent Posts</a>
+		</div>
+
+		<div class="rightPane">
+			<h1>About Me</h1>
+			<div class="aboutMe">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, error! Optio rem ea deleniti, soluta accusantium ratione repellendus nulla totam. Doloremque tenetur asperiores animi provident vel inventore quasi magnam aperiam possimus vitae. Numquam asperiores tempore ad in, ex quibusdam incidunt nihil explicabo possimus error natus iure nobis molestias doloribus sunt, iusto dolores necessitatibus assumenda vitae.
+			</div>
+
+			<form action="#" class="editProf">
+				<button>Profile Settings</button>
+			</form>
+		</div>
 	</div>
 </body>
 </html>

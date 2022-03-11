@@ -8,16 +8,19 @@ a{
 	color: black;
 }
 
+body{
+	background-color: #EEE;
+}
+
 #header{
 	padding: 1em 1em 1em 1em;
 	background-color: white;
-	border-bottom: 0.01em solid #CCC;
 	display: flex;
 	justify-content: space-evenly;
 }
 
 .searchBox{
-	margin: 0 18.5%;
+	justify-self: center;
 	align-self: center;
 }
 
@@ -50,6 +53,7 @@ div.left a img{
 }
 
 div.left{
+	justify-self: flex-start;
 	display: flex;
 	align-items: center;
 }
@@ -81,47 +85,91 @@ div.right a img{
 
 div.right{
 	display: flex;
+	justify-self: flex-end;
 	justify-content: space-around;
 	align-items: center;
 }
 
 .container{
-	padding-top: 1em;
-	display: flex;
 	font-family: 'Roboto Condensed', sans-serif;
-}
-
-.recent, .popular{
-	padding: 0.5em;
-	flex-grow: 1;
-}
-
-.popular{
-	border-left: 0.01em solid #CCC;
-}
-
-.recentThreads, .popThreads{
-	list-style-type: none;
-}
-
-.recent h2, .popular h2{
-	border-bottom: 0.01em solid #CCC;
-	padding: 0 0.5em 0.25em 0;
-}
-
-.recentThreads li a:hover, .popThreads li a:hover{
-	text-decoration: underline;
-}
-
-.recentThreads li, .popThreads li{
-	padding: 1em;
-	background-color: #EEE;
-}
-
-.recentThreads li:nth-of-type(2n), .popThreads li:nth-of-type(2n){
+	display: flex;
 	background-color: white;
+	padding: 1em;
+	margin: 1.5em 5em;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 
-.recentThreads li:first-child, .popThreads li:first-child{
-	margin-top: 0.5em;
+.leftPane{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-right: 0.01em solid #CCC;
+	padding: 2em;
+}
+
+.profileImg{
+	width: 256px;
+	height: 256px;
+	clip-path: circle(128px at center);
+}
+
+.username{
+	font-weight: 900;
+	margin: 1em 0;
+	font-size: 1.5em;
+}
+
+.recentPost{
+	margin: 5em 0;
+	border-top: 0.01em solid #CCC;
+	border-bottom: 0.01em solid #CCC;
+	padding: 1em 4em;
+}
+
+.recentPost:hover{
+	color: #1AA7EC;
+}
+
+.rightPane{
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.rightPane h1{
+	border-bottom: 0.01em solid #CCC;
+}
+
+.aboutMe{
+	margin: 1em 0;
+}
+
+.isOnline{
+	display: flex;
+	color: green;
+	align-items: center;
+}
+
+.dot{
+	margin-right: 0.25em;
+	font-size: 1.5em;
+}
+
+.editProf{
+	justify-self: flex-end;
+}
+
+.editProf button{
+	padding: 0.5em;
+	border: 0.01em solid #CCC;
+	background-color: white;
+	font-family: 'Roboto Condensed';
+	font-size: 1em;
+	transition: background-color 0.2s;
+	cursor: pointer;
+}
+
+.editProf button:hover{
+	background-color: #EEE;
 }
