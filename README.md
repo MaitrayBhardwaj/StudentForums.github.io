@@ -4,7 +4,7 @@ SE Project based on forums for students, StuFor(Name Subject to Change). This re
 Hosted on:
 https://maitraybhardwaj.github.io/StudentForums.github.io/
 
-## Upcoming updates(note for self): 
+## Upcoming updates(note for self)
 * Registration Page
 * Login Page
 * Advanced Search Page (an addition to the current Search page)
