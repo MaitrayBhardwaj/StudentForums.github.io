@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DisHub - Your Discussion Hub</title>
+	<link rel="icon" href="icons/forums.png" type="image/png">
+	<link rel="stylesheet" href="css/register.css">
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav id="header">
+		<div class="left">
+			<a href="index.html"><img src="icons/forums.png"> <span class="main">StuFor</span></a>
+		</div>
+
+		<div class="searchBox">
+			<form action="search.html" method="GET">
+				<input type="text" placeholder="Search Topics...">
+				<button type="submit">Search</button>
+			</form>
+		</div>
+
+		<div class="right">
+			<a href="index.html">Home</a>
+			<a href="#">Search</a>
+			<a href="#">Recent</a>
+			<a href="#">Popular</a>
+			<a href="#">Categories</a>
+			<a href="userProfile.html"><img src="icons/user.png"></a>
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="regis">
+			<h1>Log In</h1>
+			<form action="#">
+				<input type="email" name="email" placeholder="Email Address">
+				<input type="password" name="pass" placeholder="Password">
+				<button>Log In</button>
+
+				<label id="remMe">
+					<input type="checkbox" name="rememberMe" checked>
+					<span>Stay Logged In?</span>
+				</label>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
