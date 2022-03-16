@@ -5,8 +5,6 @@ Hosted on:
 https://maitraybhardwaj.github.io/StudentForums.github.io/
 
 ## Upcoming updates(note for self)
-* Registration Page
-* Login Page
 * Advanced Search Page (an addition to the current Search page)
 * Profile Settings page
 * Categories Dropdown
